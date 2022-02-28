@@ -30,19 +30,17 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-Image Snippet of What I Achieved
+## Image Snippet of What I Achieved
 
 ![day planner demo](images/workdayplanner.png)
 
-## Review
-
-You are required to submit the following for review:
+## You are required to submit the following for review:
 
 * The URL of the deployed application.
-[https://skcruzer.github.io/my-Day-Planner/]
+* [https://skcruzer.github.io/my-Day-Planner/]
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-[https://github.com/skcruzer/my-Day-Planner.git]
+* [https://github.com/skcruzer/my-Day-Planner.git]
 
 - - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+© Skcruzer 2022
