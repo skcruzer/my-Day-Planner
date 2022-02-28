@@ -5,31 +5,82 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Day Planner</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/6cbff65fb8.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <nav class="navbar fixed-top">
-    <div class="header-text">
-      <h1 id="navbar-title">Work Day Scheduler</h1>
-      <h2 id="navbar-subtitle"></h2>
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Planner</h1>
+    <p id="currentDay" class="lead"></p>
+  </header>
+  <div class="container">
+    <!-- Timeblocks - 9am-5pm -->
+  
+    <div class="row time-block" id="9">
+      <div class="col-1 hour pt-2">9AM</div>
+      <textarea class="col-10 data"></textarea>
+      <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
     </div>
-  </nav>
+  
+    <div class="row time-block" id="10">
+      <div class="col-1 hour pt-2">10AM</div>
+      <textarea class="col-10 data"></textarea>
+      <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+  
+    <div class="row time-block" id="11">
+      <div class="col-1 hour pt-2">11AM</div>
+      <textarea class="col-10 data"></textarea>
+      <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+  
+    <div class="row time-block" id="12">
+      <div class="col-1 hour pt-2" value="12PM">12PM</div>
+      <textarea class="col-10 data"></textarea>
+      <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+  
+    <div class="row time-block" id="13">
+      <div class="col-1 hour pt-2">1PM</div>
+      <textarea class="col-10 data"></textarea>
+      <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+  
+    <div class="row time-block" id="14">
+      <div class="col-1 hour pt-2">2PM</div>
+      <textarea class="col-10 data"></textarea>
+      <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+  
+    <div class="row time-block" id="15">
+      <div class="col-1 hour pt-2">3PM</div>
+      <textarea class="col-10 data"></textarea>
+      <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+  
+    <div class="row time-block" id="16">
+      <div class="col-1 hour pt-2">4PM</div>
+      <textarea class="col-10 data"></textarea>
+      <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+  
+    <div class="row time-block" id="17">
+      <div class="col-1 hour pt-2">5PM</div>
+      <textarea class="col-10 data"></textarea>
+      <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+  </div>
 
-  <form id='formPlanner'>
-    <div class="container" id="plannerContainer"></div>
-  </form>
 
-  <!-- Start Footer -->
-  <nav class="navbar fixed-bottom footer">
-    <div class="footer-text">© Skcruzer 2022</div>
-  </nav>
-
-<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"
-  integrity="sha256-6XMVI0zB8cRzfZjqKcD01PBsAy3FlDASrlC8SxCpInY=" crossorigin="anonymous"></script>
-<script src="assets/js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"
+    integrity="sha256-H9jAz//QLkDOy/nzE9G4aYijQtkLt9FvGmdUTwBk6gs=" crossorigin="anonymous"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
